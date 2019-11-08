@@ -21,6 +21,7 @@ public class DecimalToOctal {
             rem = decimal.mod(valueOctal).intValueExact();
             octal = octalChars[rem] + octal;
             decimal = decimal.divide(valueOctal);
+            System.out.println("********");
         }
         return octal;
     }
